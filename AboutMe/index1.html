@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVIEWS</title>
+    <style>
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    overflow: 0;
+}
+
+
+.logoText {
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+   
+   
+}
+
+.nav-link:hover {
+    color: chocolate;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+.About-project{
+    background-color: #f5f5f5;
+    padding-top: 10px;
+}
+
+.Intro{
+    margin: 0px 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description, .reviews{
+    margin: 0px 15%;
+    margin-right: 10%;
+}
+
+h1{
+    font-size: 2.7rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.Intro p{
+    font-size: .8rem;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+
+p{
+    font-size: .9rem;
+}
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+
+.button{
+    margin-top: 50%;
+    text-align: center;
+    background: #f05136;
+    border-color: #f05136;
+}
+
+#Brief {
+  padding-left: 22px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+#start {
+  padding-left: 15px;
+}
+
+.reviews {
+    margin-right: 35%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews h2{
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+
+
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li class="logoText">YASWANTH</li>
+          <li>
+            <ul class="nav-link-container-none" id="nav-link-container">
+              <li><a href="../index.html" class="nav-link">HOME</a></li>
+              <li><a href="#reviews" class="nav-link">REVIEWS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+ 
+    <section class="Intro">
+    <div>
+        <h1>Business Ludo Game</h1>
+        <p>developed using HTML,CSS,JS</p>
+        <div class="star-ratings">
+            <span class="fa fa-star fa-2x" id="1"></span>
+            <span class="fa fa-star fa-2x" id="2"></span>
+            <span class="fa fa-star fa-2x" id="3"></span>
+            <span class="fa fa-star fa-2x" id="4"></span>
+            <span class="fa fa-star fa-2x" id="5"></span>
+        </div>
+    </div>
+    <div>
+        <button class="play button" ><a class="game link" href="https://gurramkondayaswanth.github.io/Business-Ludo-Game/">PLAY</a></button>
+    </div>
+
+    </section>
+
+    <div class="About-project">
+    <section class="description">
+        <h2>Brief about the Game</h2>
+        <p><strong id="Brief">Teams:</strong>2<strong id="Brief">Pawns in a Team:</strong>3<strong
+                id="Brief">Goal:</strong>All 3 pawns reaching the end point. <strong id="Brief">Initial
+                conditon:</strong>roll dice should be 1 for pawn to enter the board.</p>
+        <p><strong id="Brief">Challenge1:</strong>Coins will be reduced each time you enter the new Box.<strong
+                id="Brief">How many coins will be reduced:</strong>same as the number displayed on the box</p>
+        <p><strong id="Brief">Challenge2:</strong>If coins become zero then u will lose the game, opponent
+            wins.<strong id="Brief">How to gain coins:</strong>By flipping the magic card we can win 0 to 2000
+            coins</p>
+        <p><strong id="Brief">Challenge3:</strong>If opponent pawn comes to ur pawn position ur pawn will be
+            killed, and sent to home again.<strong id="Brief">Anyway to be saved:</strong>U can use safe box
+            button to make some of ur desired boxes as safe place</p>
+        <h3>About Magic card</h3>
+
+        <p><strong id="start">1.</strong>Magic card contains surprises like wining coins from 0 to 2000 coins
+            and also u can move ur pawn upto
+            7
+            places front without
+            paying the coins and u can also get a chance to kill ur opposition pawn</p>
+        <p><strong id="start">2.</strong>You need to press the button team1 flip for team1 and team2 flip for
+            team2 to win the surprises, the
+            surprise details will be present on the card itself</p>
+        <p><strong id="start">3.</strong>Each time u flip <strong>500 coins</strong> will be reduced from ur
+            account</p>
+        <!-- <br> -->
+        <h3>About safe box</h3>
+
+        <p><strong id="start">1.</strong>For making any box as your safe box, so that opposite pawn will not be
+            able kill ur pawn at that
+            box u need to press the <strong>safe box</strong> button and choose the pawn position. <strong>u
+                should
+                choose ur pawn positions only</strong> </p>
+        <p><strong id="start">2.</strong>For that u need to pay <strong>5 times the box cost</strong> and ur opp
+            team will pay u the
+            <strong>amount on the box</strong> to u, whenever they come to that box</p>
+        <!-- <br> -->
+        <h3>About buttons</h3>
+
+        <h3>Roll dice</h3>
+
+        <p><strong id="start"> </strong>For rolling the dice (the value is displayed on below of the roll dice
+            button as
+            player rolls: )
+        </p>
+        <p><strong id="start"> </strong>Roll dice button below the team1 is for team1 and roll dice button below
+            the team2 is for team2</p>
+        <!-- <br> -->
+        <h3>Pawn buttons</h3>
+
+        <p><strong id="start"> </strong>After roll dice, You need to select the pawn button
+            corresponding to the desired pawn of ur teams
+            to move. Pawn position will be displayed in the right of every pawn button</p>
+        <p><strong id="start"> </strong>Make sure u choose correct pawn button. once u selected u can't select
+            the other pawn button in any situation</p>
+        <!-- <br> -->
+        <h3>Team1/Team2 flip</h3>
+
+        <p><strong id="start"> </strong>If team1/Team2 want to use the magic card then You should click on this
+            button</p>
+        <!-- <br> -->
+        <h3>Safe box</h3>
+
+        <p><strong id="start"> </strong>If a team wants to make a box as safe box then they need to click this
+            button and you can buy
+            unlimited number of safe boxes, until u have enough money</p>
+    </section>
+
+ 
+    <section class="reviews"> 
+        <div class="overall-reviews">
+            <div>
+                <h2>Reviews</h2>
+                <div class="star-ratings">
+                    <span class="fa fa-star fa-2x" id="11"></span>
+                    <span class="fa fa-star fa-2x" id="12"></span>
+                    <span class="fa fa-star fa-2x" id="13"></span>
+                    <span class="fa fa-star fa-2x" id="14"></span>
+                    <span class="fa fa-star fa-2x" id="15"></span>
+                </div>
+            </div>
+            <div>
+                <button class="button" ><a class="link">RATE</a></button>
+            </div>
+     
+        </div>
+
+        <div>
+            
+        </div>
+    
+        
+        </section>
+  
+    </div>
+</body>
+
+<script>
+    function startRating(item){
+	rate=item.id[0];
+	sessionStorage.star = rate;
+	for(var i=0;i<5;i++){
+		if(i<rate){
+			document.getElementById((i+1)).style.color="yellow";
+		}
+		else{
+			document.getElementById((i+1)).style.color="black";
+		}
+	}
+}
+</script>
+</html>
+
+    <!-- <section class="review-on-u" id="review-on-u">
+            <a href="forms/recommendationsInsertform.html">ADD</a>
+            <div class="viewer-details">
+                <div class="viewer-info" >
+                    <p class="name" > Gurramkonda Yaswanth</p>
+                    <p class="email">gurramkondayaswanth@gmail.com</p>
+                    <p ></p>
+                </div>
+                <p class="designation">Software Engineer, Lister</p>
+                <p class="date">Software Engineer, Lister</p>
+            </div>
+            <div class="viewer-review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia est fugit, eligendi nobis pariatur laborum, ducimus modi exercitationem voluptatem beatae sapiente sunt repudiandae. Esse inventore temporibus ab quasi quaerat incidunt.
+            </div>
+
+        </section> -->

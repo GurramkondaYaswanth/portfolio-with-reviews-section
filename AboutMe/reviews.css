@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: 0;
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif,'Nunito Sans', sans-serif;
+    font-size: 10px;
+    
+}
+
+.review-on-u{
+        border: 2px solid black;
+        margin: 15px 10%;
+        max-width: 60%;    
+        padding: 5px 10px;
+}
+
+.viewer-details{
+    margin-bottom: 3px;
+}
+
+.viewer-info{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.designation, .date{
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.viewer-review{
+    font-size: .9rem;
+}
+
+
+
+@media screen and (min-width: 650px){
+    .email{
+        margin-left: 20px;
+    }
+
+    
+    .review-type{
+        margin: 15px 10%;
+        max-width: 60%;    
+        padding: 5px 10px;
+        display: grid;
+    }
+
+    .review-title{
+        font-size: 1.1rem;
+        font-weight: 600;
+
+    }
+
+    
+
+    .viewer-info{
+        display: flex;   
+        justify-content: space-between;
+    }
+
+}
